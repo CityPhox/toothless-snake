@@ -1,5 +1,6 @@
 # Dice roller for The Spire
 import random
+from tkinter import *
 cont = ''
 
 def dice_check(): # Gets the number of dice to be rolled and ensures it's an integer
@@ -46,3 +47,7 @@ print ('Spire Dice Roller')
 while cont != ('x' or 'X'):
     success_calculator()
     # cont = input('Input X to stop, anything else to roll again. ')
+
+# Contruct the UI
+core_window = tk()
+core_title =
