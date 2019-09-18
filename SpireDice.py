@@ -43,11 +43,14 @@ def success_calculator(): # Calculates the result of the rolls as per The Spire
         print('Critical failure ' + str(high))
 
 #Main program
-print ('Spire Dice Roller')
-while cont != ('x' or 'X'):
-    success_calculator()
-    # cont = input('Input X to stop, anything else to roll again. ')
+# print ('Spire Dice Roller')
+# while cont != ('x' or 'X'):
+#    success_calculator()
+#	 cont = input('Input X to stop, anything else to roll again. ')
 
-# Contruct the UI
+# Construct the UI
 core_window = tk()
-core_title =
+core_window.title('This is the title')
+core_title = Label(core_window, text='Spire Dice Roller')
+core_title.pack(side="top", fill="x")
+core_window.mainloop()
